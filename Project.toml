@@ -1,0 +1,22 @@
+name = "BeamletOpticsFourierDet"
+uuid = "b64e9d8e-4e2e-44c7-888e-67dae24ac587"
+version = "0.1.0"
+authors = ["7BitLogic <7BitLogic@users.noreply.github.com>"]
+
+[workspace]
+projects = ["test"]
+
+[deps]
+BeamletOptics = "c387492b-ffec-4e51-9a46-bd230226031c"
+GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+NonuniformFFTs = "cd96f58b-6017-4a02-bb9e-f4d81626177f"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[compat]
+BeamletOptics = "0.13, 0.14"
+GeometryBasics = "0.5"
+LinearAlgebra = "1"
+NonuniformFFTs = "0.9"
+StaticArrays = "1"
+julia = "1.12"

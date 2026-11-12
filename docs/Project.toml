@@ -1,0 +1,12 @@
+[deps]
+BeamletOptics = "c387492b-ffec-4e51-9a46-bd230226031c"
+BeamletOpticsFourierDet = "b64e9d8e-4e2e-44c7-888e-67dae24ac587"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+
+[sources.BeamletOpticsFourierDet]
+path = ".."
+
+[compat]
+BeamletOptics = "0.13, 0.14"
+BeamletOpticsFourierDet = "0.1"
+Documenter = "1"
